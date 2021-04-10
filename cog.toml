@@ -1,5 +1,9 @@
 changelog_path = "CHANGELOG.md"
-pre_bump_hooks = []
+pre_bump_hooks = [
+    "cargo test",
+    "cargo build --release",
+    "cargo bump {{version}}",
+]
 post_bump_hooks = []
 authors = []
 
