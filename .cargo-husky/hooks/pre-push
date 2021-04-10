@@ -16,5 +16,6 @@
 #
 #   <local ref> <local oid> <remote ref> <remote oid>
 
+set -e
+
 cog bump --auto
-exit $?
