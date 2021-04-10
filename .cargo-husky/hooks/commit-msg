@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+# A hook script to check the commit log message.
+# Called by "git commit" with one argument, the name of the file
+# that has the commit message.  The hook should exit with non-zero
+# status after issuing an appropriate message if it wants to stop the
+# commit.  The hook is allowed to edit the commit message file.
+
+# This script enforces the Conventional Commits specification.
+# https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification
+
+MSG=$(cat $1)
+cog verify "$MSG"
+exit $?
