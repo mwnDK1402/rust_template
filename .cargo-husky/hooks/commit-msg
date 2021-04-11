@@ -9,6 +9,12 @@
 # This script enforces the Conventional Commits specification.
 # https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification
 
+# Check whether cocogitto is installed
+if ! cog verify --help >/dev/null; then
+    echo "error: please install cocogitto"
+    exit 1
+fi
+
 set -e
 
 cog verify "$(cat $1)"
