@@ -20,3 +20,4 @@
 # set -e
 
 cog bump --auto
+exit 0
