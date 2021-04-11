@@ -1,5 +1,6 @@
 ## Automated Semantic Versioning for Rust projects
 
+[![Rust](https://github.com/mwnDK1402/semver-test/actions/workflows/rust.yml/badge.svg)](https://github.com/mwnDK1402/semver-test/actions/workflows/rust.yml)
 [![Conventional Commits][conventional-commits-image]][conventional-commits-url]
 
 Sample project demonstrating how to set up automated SemVer.
