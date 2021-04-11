@@ -17,5 +17,5 @@ fi
 
 set -e
 
-echo "+cog verify $(cat $1)"
+echo "+cog verify $(sed 's/^Merge/chore: merge/' $1 | tee $1)"
 cog verify "$(cat $1)"
