@@ -16,6 +16,7 @@
 #
 #   <local ref> <local oid> <remote ref> <remote oid>
 
-set -e
+# cog bump may fail with 'No commit found to bump current version'
+# set -e
 
 cog bump --auto
