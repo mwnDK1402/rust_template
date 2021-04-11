@@ -16,20 +16,18 @@
 #
 #   <local ref> <local oid> <remote ref> <remote oid>
 
-# cog bump may fail with 'No commit found to bump current version'
-# set -e
-
 # Check whether cocogitto is installed
 if ! cog bump --help >/dev/null; then
-    echo "error: please install cocogitto"
+    echo 'error: please install cocogitto'
     exit 1
 fi
 
 # Check whether cargo-bump is installed
 if ! cargo bump --help >/dev/null; then
-    echo "error: please install cargo-bump"
+    echo 'error: please install cargo-bump'
     exit 1
 fi
 
+echo '+cog bump --auto'
 cog bump --auto >/dev/null
 exit 0
