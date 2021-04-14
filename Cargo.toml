@@ -1,6 +1,6 @@
 [package]
 name = "rust_template"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Mathias Wagner Nielsen <mathiasvalentinwagner@gmail.com>"]
 edition = "2018"
 

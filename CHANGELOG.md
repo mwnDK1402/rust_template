@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.3.0 - 2021-04-14
+
+
+### Features
+
+4d1ca4 - amend initial commit in initialize-template.sh - Mathias Wagner Nielsen
+
+
+- - -
 ## 0.2.0 - 2021-04-14
 
 
