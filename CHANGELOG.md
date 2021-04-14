@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.3.3 - 2021-04-14
+
+
+### Bug Fixes
+
+3e023f - fix invalid CHANGELOG.md - Mathias Wagner Nielsen
+
+
+- - -
 ## 0.3.0 - 2021-04-14
 
 
