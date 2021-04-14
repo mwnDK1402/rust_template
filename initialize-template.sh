@@ -15,6 +15,10 @@ read_authors() {
     authors="$authors]"
 }
 
+echo 'Amending initial commit'
+git commit --amend -m "chore: generate repo from template"
+git push -f
+
 echo 'Package name (ex. vigilant_disco):'
 read -r package_name
 
