@@ -2,6 +2,58 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.2.0 - 2021-04-14
+
+
+### Features
+
+815292 - add initialize-template.sh - Mathias Wagner Nielsen
+
+
+### Documentation
+
+3a7fa8 - document usage - Mathias Wagner Nielsen
+
+723da7 - add test badge - Mathias Wagner Nielsen
+
+1212a5 - add note about update-hooks.sh - Mathias Wagner Nielsen
+
+bb70c3 - add README.md - Mathias Wagner Nielsen
+
+
+### Continuous Integration
+
+7febd4 - fix Rust test workflow - Wagner
+
+beb5c2 - add Rust test workflow - Wagner
+
+
+### Miscellaneous Chores
+
+ea1e38 - rename package to rust_template - Mathias Wagner Nielsen
+
+d6b9fc - change merge commit messages in commit-msg - Mathias Wagner Nielsen
+
+8d3cb6 - merge branch 'main' of https://github.com/mwnDK1402/semver-test - Mathias Wagner Nielsen
+
+187613 - use relative path in update-hooks.sh - Mathias Wagner Nielsen
+
+2e0fe3 - add update-hooks.sh script - Mathias Wagner Nielsen
+
+ade794 - add info logging to hooks - Mathias Wagner Nielsen
+
+564d58 - remove unused features - Mathias Wagner Nielsen
+
+5bf9ab - add error handling to commit-msg - Mathias Wagner Nielsen
+
+cdf820 - add error handling to pre-push - Mathias Wagner Nielsen
+
+12e3f0 - fix incorrect status code in pre-push - Mathias Wagner Nielsen
+
+183ed2 - fix non-bumping commits being rejected in pre-push - Mathias Wagner Nielsen
+
+
+- - -
 ## 0.1.0 - 2021-04-11
 
 
