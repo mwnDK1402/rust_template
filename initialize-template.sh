@@ -33,8 +33,12 @@ echo 'Resetting README.md and CHANGELOG.md'
 rm "$BASE_PATH/README.md"
 touch "$BASE_PATH/README.md"
 
-rm "$BASE_PATH/CHANGELOG.md"
-touch "$BASE_PATH/CHANGELOG.md"
+(
+echo '# Changelog'
+echo 'All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.'
+echo
+echo '- - -'
+) > "$BASE_PATH/CHANGELOG.md"
 
 echo 'Running update-hooks.sh:'
 $BASE_PATH/update-hooks.sh
