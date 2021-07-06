@@ -11,7 +11,7 @@ env:
   CARGO_HUSKY_DONT_INSTALL_HOOKS: true
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
